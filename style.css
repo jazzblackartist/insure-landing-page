@@ -1,0 +1,172 @@
+/* This is the style for the nav bar */
+.navbar-brand {
+  margin-left: 7%;
+  margin-right: 60%;
+  color: hsl(256, 26%, 20%) !important;
+}
+
+.navbar-nav {
+  width: 600px;
+}
+
+.btn {
+  margin-left: 6%;
+}
+
+.btn-nav {
+  color: hsl(256, 26%, 20%);
+}
+.btn-nav:hover {
+    background-color: hsl(216, 30%, 68%);
+}
+
+/* This is the style for the first container */
+.right-line {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+.svg_left {
+  position: absolute;
+  left: 0;
+  top: 500px;
+  z-index: 1;
+}
+
+h1 {
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+  font-size: 86px;
+  line-height: 5rem;
+  margin-bottom: 5%;
+}
+
+hr {
+  border-color: white;
+  border-width: 2px;
+  border-style: none;
+  border-top-style: solid;
+  width: 22%;
+  margin-left: 0px;
+}
+
+.first {
+  background-color: hsl(256, 26%, 20%);
+  width: auto;
+  color: white;
+  position: relative;
+}
+
+.intro_container {
+  display: inline-block;
+  position: relative;
+  padding: 52px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin-left: 15%;
+  width: 700px;
+}
+
+.into_img_container {
+  display: inline-block;
+  margin-left: 10%;
+  position: relative;
+  top: 160px;
+}
+
+/* This section is for the middle stle */
+.mid_line {
+  border-color: hsl(256, 26%, 20%);
+  border-style: none;
+  border-width: 2px;
+  border-top-style: solid;
+  width: 18%;
+  margin-left: 0px;
+}
+
+.mid_contaoner {
+  padding-top: 232px;
+}
+
+.mid_header {
+  color: hsl(256, 26%, 20%);
+  margin-top: 45px;
+  padding-bottom: 100px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+/* This section is the call to action style */
+.cta-line {
+  position: absolute;
+  right: 0px;
+}
+.cta {
+  position: relative;
+  background-color: hsl(256, 26%, 20%);
+  margin-top: 200px;
+  height: 250px;
+  margin-bottom: 200px;
+}
+
+.cta-header {
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  color: white;
+  margin: 50px;
+  line-height: 44px;
+  font-size: 46px;
+  font-weight: 600;
+  padding: 50px;
+  font-family: 'DM Serif Display', serif;
+}
+
+/* This is the footer style */
+.footer {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(256, 26%, 20%);
+  padding-bottom: 10px;
+}
+
+.footer-pattern {
+  position: absolute;
+}
+
+.link {
+  text-decoration: none;
+  color: hsl(256, 26%, 20%);
+}
+
+a.link:hover {
+  color: hsl(216, 30%, 68%);
+  text-decoration: none;
+}
+
+.social-logo {
+  margin-top: 10%;
+}
+
+h7 {
+  color: rgb(131, 125, 136);
+}
+
+.footer-line {
+  border-style: none;
+  border-width: 1px;
+  width: 100%;
+  border-bottom-style: solid;
+  border-color: rgb(131, 125, 136);
+}
+
+.social {
+  margin-left: 70%;
+}
+
+.footer-link {
+  padding-left: 10%;
+  padding-right: 10%;
+}
