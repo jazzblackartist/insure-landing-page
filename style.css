@@ -6,6 +6,7 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
 /* This is the style for the nav bar */
 .navbar-brand {
   margin-left: 7%;
@@ -24,8 +25,9 @@
 .btn-nav {
   color: hsl(256, 26%, 20%);
 }
+
 .btn-nav:hover {
-    background-color: hsl(216, 30%, 68%);
+  background-color: hsl(216, 30%, 68%);
 }
 
 /* This is the style for the first container */
@@ -83,17 +85,28 @@ hr {
   top: 160px;
 }
 
-/* This section is for the middle stle */
-.col-lg-3{
-  margin:4% !important;
+/* This is the responsive section for the into */
+@media (max-width:812px){
+  .intro_container {
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+}
 
+/* This section is for the middle stle */
+.col-lg-3 {
+  margin: 4% !important;
 }
-.col-md-3{
-  margin:4% !important;
+
+.col-md-3 {
+  margin: 4% !important;
 }
-.col-sm-3{
-  margin:4% !important;
+
+.col-sm-3 {
+  margin: 4% !important;
 }
+
 .mid_line {
   border-color: hsl(256, 26%, 20%);
   border-style: none;
@@ -113,6 +126,18 @@ hr {
   padding-bottom: 100px;
 }
 
+/* mobile responsive "we're different"*/
+@media (max-width: 812px) {
+  .mid_header {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  .mid_line {
+    margin-left: 25%;
+  }
+}
+
 h2 {
   margin-top: 30px;
 }
@@ -121,7 +146,9 @@ h2 {
 .cta-line {
   position: absolute;
   right: 0px;
+  height: 100%;
 }
+
 .cta {
   position: relative;
   background-color: hsl(256, 26%, 20%);
@@ -140,6 +167,29 @@ h2 {
   font-weight: 600;
   padding: 50px;
   font-family: 'DM Serif Display', serif;
+}
+
+/* mobile and tablet responsive */
+@media (max-width: 812px) {
+  .cta-header {
+    width: 100%;
+    font-size: 64px;
+    text-align: center;
+    font-weight: 500;
+    line-height: .8;
+    margin: 0px;
+  }
+
+  .cta-button {
+    width: 128px;
+    margin-right: 170px;
+    margin-left: 170px;
+  }
+
+  .cta-line {
+    height: 100%;
+    top: 0px;
+  }
 }
 
 /* This is the footer style */
@@ -166,10 +216,11 @@ a.link:hover {
 .social-logo {
   margin-top: 10%;
 }
-.cta-button{
+
+.cta-button {
   position: relative;
   z-index: 1;
-  margin-bottom:50px;
+  margin-bottom: 50px;
 }
 
 h7 {
@@ -191,4 +242,31 @@ h7 {
 .footer-link {
   padding-left: 10%;
   padding-right: 10%;
+}
+
+/* responsive for mobile and tablet */
+@media (max-width: 812px) {
+  .footer-link {
+    text-align: center;
+  }
+
+  .ft-link {
+    padding-top: 5%;
+  }
+
+  .footer-logo {
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 143px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .footer-social {
+    margin-left: 39%;
+    margin-right: 39%;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 110px;
+  }
 }
